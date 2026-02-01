@@ -70,17 +70,7 @@
   --font-mono: var(--font-geist-mono);
 }
 
-/* Dark mode (optional, kept for future) */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0F0D14;
-    --background-alt: #1A1720;
-    --foreground: #F5F5F4;
-    --foreground-muted: #A8A29E;
-    --border: #292524;
-    --border-strong: #44403C;
-  }
-}
+/* Dark mode disabled - always use light theme */
 
 /* ============================================
    BASE STYLES
